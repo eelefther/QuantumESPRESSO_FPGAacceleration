@@ -7,10 +7,7 @@ The acceleration was implemented using Xilinx Vitis and Vitis HLS, targeting the
 
 For this purpose, the Xilinx Alveo U200 acceleration card was used.
 
-The accelerated implementation achieved:
-
-4.81× speedup for the FFT (FFTW3)
-4.14× speedup for the vloc_psi_k function
+The accelerated implementation achieved showed 4.81× speedup for the FFT (FFTW3) and 4.14× speedup for the vloc_psi_k function.
 
 These results demonstrate significant performance improvements compared to the baseline CPU implementation.
 
